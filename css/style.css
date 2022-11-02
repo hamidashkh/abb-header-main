@@ -60,3 +60,48 @@ hr{
     margin-right: 10px;
     color: black;
 }
+.top-ferdi{
+    display: none;
+}
+.logo i{
+    display: none;
+}
+
+@media (max-width:576px){
+    
+    .header-all .top nav{
+        display:none;
+    }
+    .header-all .top-ferdi{
+        display: block;
+    }
+    .header-all .bottom nav{
+        display: none;
+    }
+    .header-all .middle a{
+        display: none;
+    }
+    .header-all .middle .btn{
+        display: none;
+    }
+    .header-all .bottom{
+        display: none;
+    }
+    .header-all .logo i{
+        display: block;
+        justify-content: space-between;
+    }
+    .header-all .middle {
+        padding: 1rem 1rem;
+    }
+
+    .header-all .top{
+        padding: 1rem 1rem;
+    }
+    .header-all .bottom{
+        padding: 1rem 1rem;
+    }
+    .icons .search{
+        display: none;
+    }
+}
