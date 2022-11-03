@@ -94,6 +94,11 @@ hr{
     .header-all .middle {
         padding: 1rem 1rem;
     }
+    .middle .logo{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
 
     .header-all .top{
         padding: 1rem 1rem;
