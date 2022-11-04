@@ -40,7 +40,13 @@ a{
     color:#BFC9DD;
     margin-left: 10px;
 }
-.middle .logo:hover a{
+.middle .logo .ferdi:hover a{
+    color:#000000;
+}
+.middle .logo .korp:hover a{
+    color:#000000;
+}
+.middle .logo .kob:hover a{
     color:#000000;
 }
 .header-all .middle button{
